@@ -4,6 +4,27 @@ This project is part of the BioinformHER Module 2 Mini-Project. It explores the 
 ## 🔬 Objective
 
 To analyze the HBB gene from *Homo sapiens* and investigate its evolutionary conservation across five other species using sequence alignment and phylogenetic method.
+
+🧪 Workflow
+Human HBB Protein Sequence
+          ↓
+       BLASTp
+          ↓
+Selection of Homologous Sequences
+          ↓
+Pairwise Alignment
+     (EMBOSS Needle)
+          ↓
+Multiple Sequence Alignment
+     (Clustal Omega)
+          ↓
+Conservation Analysis
+       (Skylign)
+          ↓
+Phylogenetic Analysis
+        (MEGA X)
+          ↓
+Evolutionary Interpretation
 ## 📌 Tasks Completed
 
 1. Retrieved HBB sequences using NCBI BLAST.
